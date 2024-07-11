@@ -1,0 +1,24 @@
+#bank-title{
+    font-family: 'Libre Bodoni';
+    font-size: 5rem;
+}
+
+#slogan{
+    font-family: 'Libre Caslon Display';
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: -1.2em;
+}
+
+#remember{
+    color: red;
+}
+
+#login{
+    background-color: #762D35;
+}
+
+#login:hover{
+    background-color: #8F5056;
+    transition: all .1s;
+}
