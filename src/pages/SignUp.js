@@ -10,7 +10,7 @@ export function SignUp() {
                         <div class="card border-light-subtle shadow-sm">
                             <div class="row g-0">
                                 <div class="col-12 col-md-6">
-                                    <img class="img-fluid rounded-start w-100 h-100 object-fit-cover" loading="lazy" src={man_smiling} alt="Welcome back you've been missed!"/>
+                                    <img class="img-fluid rounded-start w-100 h-100 object-fit-cover" loading="lazy" src={man_smiling} alt="Welcome back you've been missed!" />
                                 </div>
                                 <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
                                     <div class="col-12 col-lg-11 col-xl-10">
@@ -32,34 +32,34 @@ export function SignUp() {
                                                 <div class="row gy-3 overflow-hidden">
                                                     <div class="col-12">
                                                         <div class="form-floating mb-3">
-                                                            <input type="text" class="form-control" name="firstName" id="firstName" placeholder="First Name" required/>
-                                                                <label for="firstName" class="form-label">First Name</label>
+                                                            <input type="text" class="form-control" name="firstName" id="firstName" placeholder="First Name" required />
+                                                            <label for="firstName" class="form-label">First Name</label>
                                                         </div>
                                                     </div>
                                                     <div class="col-12">
                                                         <div class="form-floating mb-3">
-                                                            <input type="text" class="form-control" name="lastName" id="lastName" placeholder="First Name" required/>
-                                                                <label for="lastName" class="form-label">Last Name</label>
+                                                            <input type="text" class="form-control" name="lastName" id="lastName" placeholder="First Name" required />
+                                                            <label for="lastName" class="form-label">Last Name</label>
                                                         </div>
                                                     </div>
                                                     <div class="col-12">
                                                         <div class="form-floating mb-3">
-                                                            <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com" required/>
-                                                                <label for="email" class="form-label">Email</label>
+                                                            <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com" required />
+                                                            <label for="email" class="form-label">Email</label>
                                                         </div>
                                                     </div>
                                                     <div class="col-12">
                                                         <div class="form-floating mb-3">
-                                                            <input type="password" class="form-control" name="password" id="password" placeholder="Password" required/>
-                                                                <label for="password" class="form-label">Password</label>
+                                                            <input type="password" class="form-control" name="password" id="password" placeholder="Password" required />
+                                                            <label for="password" class="form-label">Password</label>
                                                         </div>
                                                     </div>
                                                     <div class="col-12">
                                                         <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox" value="" name="iAgree" id="iAgree" required/>
-                                                                <label class="form-check-label text-secondary" for="iAgree">
-                                                                    I agree to the <a href="#!" class="link-primary text-decoration-none">terms and conditions</a>
-                                                                </label>
+                                                            <input class="form-check-input" type="checkbox" value="" name="iAgree" id="iAgree" required />
+                                                            <label class="form-check-label text-secondary" for="iAgree">
+                                                                I agree to the <a href="#!" class="link-primary text-decoration-none">terms and conditions</a>
+                                                            </label>
                                                         </div>
                                                     </div>
                                                     <div class="col-12">
@@ -71,7 +71,7 @@ export function SignUp() {
                                             </form>
                                             <div class="row">
                                                 <div class="col-12">
-                                                <p class="text-center mt-3 mb-3">Or register with your Google account</p>
+                                                    <p class="text-center mt-3 mb-3">Or register with your Google account</p>
                                                     <div class="d-flex gap-3 flex-column">
                                                         <a href="#!" class="btn btn-lg btn-outline-dark">
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
@@ -80,7 +80,7 @@ export function SignUp() {
                                                             <span class="ms-2 fs-6">Log in with Google</span>
                                                         </a>
                                                     </div>
-                                                    
+
                                                 </div>
                                             </div>
                                             <div class="row">

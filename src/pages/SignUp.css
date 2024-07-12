@@ -1,24 +1,24 @@
-#welcome{
+#welcome {
     font-family: 'Libre Bodoni';
     font-size: 4rem;
 }
 
-#tagline{
+#tagline {
     /* font-family: 'Libre Caslon Display'; */
     font-size: 1rem;
     /* font-weight: 500; */
     margin-top: -0.8em;
 }
 
-#remember{
+#remember {
     color: red;
 }
 
-#signup{
+#signup {
     background-color: #762D35;
 }
 
-#signup:hover{
+#signup:hover {
     background-color: #8F5056;
     transition: all .1s;
 }
