@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import { Login } from './pages/Login'
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { SignUp } from './pages/SignUp';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (

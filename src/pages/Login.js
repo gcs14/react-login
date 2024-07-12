@@ -1,4 +1,5 @@
 import './Login.css';
+import { SignUp } from './SignUp';
 import crosswalk from '../images/big-crosswalk.jpg';
 
 export function Login() {
@@ -9,10 +10,10 @@ export function Login() {
                     <div class="col-12 col-xxl-11">
                         <div class="card border-light-subtle shadow-sm">
                             <div class="row g-0">
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 col-md-7">
                                     <img class="img-fluid rounded-start w-100 h-100 object-fit-cover" loading="lazy" src={crosswalk} alt="Welcome back you've been missed!" />
                                 </div>
-                                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+                                <div class="col-12 col-md-5 d-flex align-items-center justify-content-center">
                                     <div class="col-12 col-lg-11 col-xl-10">
                                         <div class="card-body p-3 p-md-4 p-xl-5">
                                             <div class="row">
